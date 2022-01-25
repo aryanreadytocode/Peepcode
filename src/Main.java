@@ -31,7 +31,10 @@ public class Main {
 
 //        System.out.println("LastIndex :"+ Arrays.toString(new AllIndicesOfArray().findIndices(array, 0, 0, 36)));
 
-        String abc = "abc";
-        System.out.println("Sub sequence "+new SubSequence().gss(abc));
+//        String abc = "abc";
+//        System.out.println("Sub sequence "+new SubSequence().gss(abc));
+
+        String number = "678";
+        System.out.println("Sequence "+new GetKeypadCombination().getKPC(number));
     }
 }
